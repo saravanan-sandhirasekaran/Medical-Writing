@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>CSR Section Generator</title>
+
+    <!-- Office.js -->
+    <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+
+    <!-- Custom Styles -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #101820;
+        }
+
+        h2 {
+            text-align: center;
+            color: #61A60E; /* Primary green */
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+
+
+        .accordion {
+            margin-bottom: .2rem !important
+        }
+
+
+        .accordion-item {
+            border: 1px solid #A7A8A9;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .accordion-body {
+            background-color: #ffffff !important;
+            padding: 5px !important;
+        }
+
+        textarea {
+            font-size: 16px;
+            resize: vertical;
+        }
+
+        .form-label {
+            color: #636569; /* dark gray */
+            font-weight: 600;
+        }
+
+        .btn-primary {
+            background-color: #2f7322;
+            border-color: #61A60E;
+        }
+
+        .btn-success {
+            background-color: #D35F16;
+            border-color: #D35F16;
+        }
+
+        .btn-primary:hover {
+            background-color: #636569;
+        }
+
+        .btn-success:hover {
+            background-color: #b94e0f;
+        }
+
+        .spinner-border {
+            vertical-align: middle;
+        }
+
+        .accordion-button {
+            background-color: #636569 !important; /* Harmony Primary Green */
+            color: #ffffff !important;
+            font-size: 1.1rem !important;
+            font-weight: 600 !important;
+        }
+
+            .accordion-button:not(.collapsed) {
+                background-color: #A7A8A9 !important; /* Slightly darker on expand */
+                color: #ffffff !important;
+                box-shadow: none !important;
+            }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Medical Content Generator</h2>
+        <div id="sectionsContainer"></div>
+    </div>
+
+    <script src="Home.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+.bg-medical {
+  background-color: #60a744;
+}
+
+.logo-box {
+  background-image: url("../assets/New\ Logo\ 2.jpg");
+  background-size: 39rem 16.2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  // max-width: 500px;
+  height: 285px;
+  margin: 0 auto;
+}
+
+.btn-medical {
+  background-color: #60a744;
+  color: white;
+  font-size: 17px;
+  padding: 6px 20px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-medical:hover {
+  background-color: #4d8a37;
+}
+
+.loader-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+.spinner-div {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.spinner {
+  width: 24px;
+  height: 24px;
+  border: 3px solid #cbd5e0;
+  border-top: 3px solid #60a744;
+  border-radius: 50%;
+  animation: spin 0.75s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+a {
+  text-decoration: underline;
+  color: #3182ce;
+  font-weight: 500;
+}
+
+.form-check-input:checked {
+  background-color: #60a744;
+  border-color: #60a744;
+}
+
+.form-check-label{
+  margin-left: 20px;
+}
+
+.form-check-input[type=radio] {
+  border-radius: 50%;
+  border: 2px solid #60a744;
+}
+
+.card {
+  background: #fff;
+  border: none;
+  opacity: 0.9;
+}
+
+.accordion-button {
+  background-color: #f4f4f4;
+  color: #333;
+  font-weight: 600;
+}
+
+.form-check{
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: center;
+}
+
+.d-flex-class{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.accordion-body{
+  height: 170px !important;
+  overflow: auto;
+}
+.bg-video-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.6); /* Adjust opacity if needed */
+  z-index: 1;
+}
+
+.card {
+  z-index: 3;
+}
+
+.top-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+   height: 60px;
+  background-color: #000; 
+  z-index: 10;
+}
+.header-logo {
+  height: 60px;
+  width: 40px; /* Adjust as needed */
+  width: auto;
+}
+main {
+  margin-top: 60px; /* Match header height */
+}

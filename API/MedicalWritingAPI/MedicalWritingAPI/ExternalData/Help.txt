@@ -1,0 +1,50 @@
+1. Clinical Development Plan (CDP)
+Purpose: High-level roadmap of the clinical strategy for a drug or device across all phases.
+
+Contains: Strategic objectives, targeted indications, primary/secondary endpoints for each study.
+
+Format: Usually .docx or .pdf
+
+Usage: Main reference for aligning study objectives with program goals.
+
+2. Target Product Profile (TPP)
+Purpose: Regulatory-facing summary of the intended use, efficacy, safety, and key clinical outcomes.
+
+Contains: Desired label claims, key endpoints required to support claims.
+
+Format: .docx, .xlsx, or .pdf
+
+Usage: Helps define endpoints that will support regulatory approval and labeling.
+
+3. Investigator’s Brochure (IB)
+Purpose: Summary of preclinical and clinical data for investigators.
+
+Contains: Rationale for the study, prior efficacy/safety findings.
+
+Format: .docx or .pdf
+
+Usage: Supports justification of the primary and secondary objectives and risk profile.
+
+4. Previous Clinical Study Reports (CSRs)
+Purpose: Reports from earlier phases (e.g., Phase 1 or 2 studies).
+
+Contains: Outcomes and endpoints from prior studies, informing what to pursue or refine.
+
+Format: .docx or .pdf
+
+Usage: Provides evidence to design next-phase endpoints and expected results.
+
+5. Regulatory Guidance Documents
+Purpose: Define acceptable endpoints and outcome measures per indication.
+
+Source: FDA, EMA, ICH (e.g., FDA Guidance for Diabetes, Oncology, etc.)
+
+Format: .pdf
+
+Usage: Ensures endpoints are aligned with regulatory expectations.
+
+6. Scientific Literature & Competitor Protocols
+Purpose: Benchmarking and supporting clinical justification.
+
+Format: .pdf, publications, or trial registry data (e.g., ClinicalTrials.gov)
+

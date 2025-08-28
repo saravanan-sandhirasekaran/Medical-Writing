@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Created:ce44715c-8c4e-446b-879c-ea9ebe0f09c8-->
+<!-- To learn about the Office Add-ins XML manifest, see https://go.microsoft.com/fwlink/?linkid=2252563. -->
+<OfficeApp 
+          xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" 
+          xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides"
+          xsi:type="TaskPaneApp">
+
+
+  <!-- IMPORTANT! Id must be unique for your add-in, if you reuse this manifest ensure that you change this id to a new GUID. -->
+  <Id>6901edd9-4b25-4cd4-ae36-ba2e19fbafd4</Id>
+
+  <Version>1.0.0.0</Version>
+  <ProviderName>[Provider name]</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <!-- The display name of your add-in. Used on the store and various places of the Office UI such as the add-ins dialog. -->
+  <DisplayName DefaultValue="Medical Writing" />
+  <Description DefaultValue="Medical Writing"/>
+  <!-- Icon for your add-in. Used on installation screens and the add-ins dialog. -->
+  <IconUrl DefaultValue="~remoteAppUrl/Images/Button32x32.png" />
+
+  <!-- Domains that will be allowed when navigating. For example, if you use ShowTaskpane and then have an href link, navigation will only be allowed if the domain is on this list. -->
+  <AppDomains>
+    <AppDomain>AppDomain1</AppDomain>
+    <AppDomain>AppDomain2</AppDomain>
+    <AppDomain>AppDomain3</AppDomain>
+  </AppDomains>
+  
+
+  <Hosts>
+    <Host Name="Document" />
+  </Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="~remoteAppUrl/Home.html" />
+  </DefaultSettings>
+  <!-- End TaskPane Mode integration.  -->
+
+  <Permissions>ReadWriteDocument</Permissions>
+
+ 
+
+
+</OfficeApp>
